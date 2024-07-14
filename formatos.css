@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #d99883;
+    color: #000;
+    text-align: center;
+    overflow-y: auto;
+}
+
+header {
+    height: 60px; 
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 160px); 
+    background-color: #d99883;
+}
+
+.cadastro-title {
+    font-size: 2.5rem; 
+    font-weight: bold;
+} 
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 0.5rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    text-align: center; 
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.title {
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #000;
+}
+.welcome-text {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000;
+}
+footer {
+    height: 40px; 
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .title {
+        font-size: 35px; 
+    }
+    .welcome-text {
+        font-size: 25px; 
+    }
+}
+
